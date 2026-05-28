@@ -23,7 +23,7 @@ Num_Stops= st.number_input("NO of stop", min_value=0)
 Vehicle_Age= st.number_input("vehicle age in year", min_value=0)
 Road_Condition_Score= st.number_input("Road condition fill 1 to 5" , min_value=1, max_value=5)
 Package_Weight= st.number_input("pkg wt in kg", min_value=0.0)
-Fuel_Efficiency=st.number_input("in km/lit" , min _value=0.0)
+Fuel_Efficiency=st.number_input("in km/lit", min _value=0.0)
 Warehouse_Processing_Time= st.number_input("proc time in min" , min_value=0.0)
 
 input_data=pd.DataFrame([[Delivery_Distance,Traffic_Congestion,Weather_Condition,
